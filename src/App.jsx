@@ -22,7 +22,7 @@ function App() {
     setMovies(data.Search);
   };
   useEffect(() => {
-    fetchMovie("Batman");
+    fetchMovie("fast");
   }, []);
   return (
     <div className="app">
